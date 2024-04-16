@@ -1,0 +1,38 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Browser based game",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./src -d ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Professor-Severus-Snape/AJS_eslint_v9.git"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "professor-severus-snape",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Professor-Severus-Snape/AJS_eslint_v9/issues"
+  },
+  "homepage": "https://github.com/Professor-Severus-Snape/AJS_eslint_v9#readme",
+  "dependencies": {
+    "core-js": "^3.36.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@eslint/js": "^9.0.0",
+    "@stylistic/eslint-plugin-js": "^1.7.2",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0"
+  },
+  "type": "module"
+}
